@@ -11,6 +11,7 @@ export default function AppBar() {
     <div>
       <div className="flex justify-between">
         <div className="m-2 p-2">MuZiC</div>
+        <div>Logo</div>
         <div>
           {session.status === "authenticated" ? (
             <button
